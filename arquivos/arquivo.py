@@ -1,7 +1,7 @@
 lista = []
 
 try:
-    with open("main.py", "r") as f:
+    with open("arquivo.txt", "r") as f:
         for linha in f:
             lista.append(linha.strip())
 
