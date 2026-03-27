@@ -1,5 +1,5 @@
 try:
-    with open("texto.txt", "r") as f:
+    with open("frase.txt", "r") as f:
         texto = f.read()
 
     palavras = texto.split()
