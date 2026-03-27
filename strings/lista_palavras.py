@@ -1,7 +1,7 @@
 lista = []
 
 try:
-    with open("frases.txt", "r") as f:
+    with open("frase.txt", "r") as f:
         for linha in f:
             palavras = linha.split()
             
